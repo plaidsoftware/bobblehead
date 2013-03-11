@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3259C81159EA252007DD264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C80159EA252007DD264 /* UIKit.framework */; };
+		D3259C83159EA252007DD264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C82159EA252007DD264 /* Foundation.framework */; };
+		D3259C85159EA252007DD264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C84159EA252007DD264 /* CoreGraphics.framework */; };
+		D3259C87159EA252007DD264 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C86159EA252007DD264 /* GLKit.framework */; };
+		D3259C89159EA252007DD264 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C88159EA252007DD264 /* OpenGLES.framework */; };
+		D3259C8F159EA252007DD264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3259C8D159EA252007DD264 /* InfoPlist.strings */; };
+		D3259C91159EA252007DD264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3259C90159EA252007DD264 /* main.m */; };
+		D3259C95159EA252007DD264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3259C94159EA252007DD264 /* AppDelegate.m */; };
+		D3259C98159EA252007DD264 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3259C96159EA252007DD264 /* MainStoryboard_iPhone.storyboard */; };
+		D3259C9B159EA252007DD264 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3259C99159EA252007DD264 /* MainStoryboard_iPad.storyboard */; };
+		D3259CA2159EA252007DD264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3259CA1159EA252007DD264 /* ViewController.m */; };
+		D3259CAA159EA252007DD264 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259CA9159EA252007DD264 /* SenTestingKit.framework */; };
+		D3259CAB159EA252007DD264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C80159EA252007DD264 /* UIKit.framework */; };
+		D3259CAC159EA252007DD264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3259C82159EA252007DD264 /* Foundation.framework */; };
+		D3259CB4159EA252007DD264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3259CB2159EA252007DD264 /* InfoPlist.strings */; };
+		D3259CB7159EA252007DD264 /* bobbleheadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3259CB6159EA252007DD264 /* bobbleheadTests.m */; };
+		D3BD94FF16ED972D0068EE2E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D3BD94FE16ED972D0068EE2E /* LICENSE */; };
+		D3BD950116ED99650068EE2E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D3BD950016ED99650068EE2E /* README.md */; };
+		D3F294E6159EC45B00B8F4D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F294E5159EC45B00B8F4D2 /* CoreMotion.framework */; };
+		D3F294EA159F440100B8F4D2 /* grooveyhead.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F294E8159F440100B8F4D2 /* grooveyhead.png */; };
+		D3F294EB159F440100B8F4D2 /* grooveyonlybody.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F294E9159F440100B8F4D2 /* grooveyonlybody.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3259CAD159EA252007DD264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3259C73159EA252007DD264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3259C7B159EA252007DD264;
+			remoteInfo = bobblehead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3259C7C159EA252007DD264 /* bobblehead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bobblehead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3259C80159EA252007DD264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3259C82159EA252007DD264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3259C84159EA252007DD264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3259C86159EA252007DD264 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D3259C88159EA252007DD264 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D3259C8C159EA252007DD264 /* bobblehead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bobblehead-Info.plist"; sourceTree = "<group>"; };
+		D3259C8E159EA252007DD264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3259C90159EA252007DD264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3259C92159EA252007DD264 /* bobblehead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bobblehead-Prefix.pch"; sourceTree = "<group>"; };
+		D3259C93159EA252007DD264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3259C94159EA252007DD264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3259C97159EA252007DD264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D3259C9A159EA252007DD264 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D3259CA0159EA252007DD264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3259CA1159EA252007DD264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3259CA8159EA252007DD264 /* bobbleheadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bobbleheadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3259CA9159EA252007DD264 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3259CB1159EA252007DD264 /* bobbleheadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bobbleheadTests-Info.plist"; sourceTree = "<group>"; };
+		D3259CB3159EA252007DD264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3259CB5159EA252007DD264 /* bobbleheadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bobbleheadTests.h; sourceTree = "<group>"; };
+		D3259CB6159EA252007DD264 /* bobbleheadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bobbleheadTests.m; sourceTree = "<group>"; };
+		D3BD94FE16ED972D0068EE2E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		D3BD950016ED99650068EE2E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		D3F294E5159EC45B00B8F4D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D3F294E8159F440100B8F4D2 /* grooveyhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grooveyhead.png; sourceTree = "<group>"; };
+		D3F294E9159F440100B8F4D2 /* grooveyonlybody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grooveyonlybody.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3259C79159EA252007DD264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F294E6159EC45B00B8F4D2 /* CoreMotion.framework in Frameworks */,
+				D3259C81159EA252007DD264 /* UIKit.framework in Frameworks */,
+				D3259C83159EA252007DD264 /* Foundation.framework in Frameworks */,
+				D3259C85159EA252007DD264 /* CoreGraphics.framework in Frameworks */,
+				D3259C87159EA252007DD264 /* GLKit.framework in Frameworks */,
+				D3259C89159EA252007DD264 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259CA4159EA252007DD264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259CAA159EA252007DD264 /* SenTestingKit.framework in Frameworks */,
+				D3259CAB159EA252007DD264 /* UIKit.framework in Frameworks */,
+				D3259CAC159EA252007DD264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3259C71159EA252007DD264 = {
+			isa = PBXGroup;
+			children = (
+				D3259C8A159EA252007DD264 /* bobblehead */,
+				D3259CAF159EA252007DD264 /* bobbleheadTests */,
+				D3259C7F159EA252007DD264 /* Frameworks */,
+				D3259C7D159EA252007DD264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3259C7D159EA252007DD264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3259C7C159EA252007DD264 /* bobblehead.app */,
+				D3259CA8159EA252007DD264 /* bobbleheadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3259C7F159EA252007DD264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F294E5159EC45B00B8F4D2 /* CoreMotion.framework */,
+				D3259C80159EA252007DD264 /* UIKit.framework */,
+				D3259C82159EA252007DD264 /* Foundation.framework */,
+				D3259C84159EA252007DD264 /* CoreGraphics.framework */,
+				D3259C86159EA252007DD264 /* GLKit.framework */,
+				D3259C88159EA252007DD264 /* OpenGLES.framework */,
+				D3259CA9159EA252007DD264 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3259C8A159EA252007DD264 /* bobblehead */ = {
+			isa = PBXGroup;
+			children = (
+				D3259C93159EA252007DD264 /* AppDelegate.h */,
+				D3259C94159EA252007DD264 /* AppDelegate.m */,
+				D3259C96159EA252007DD264 /* MainStoryboard_iPhone.storyboard */,
+				D3259C99159EA252007DD264 /* MainStoryboard_iPad.storyboard */,
+				D3259CA0159EA252007DD264 /* ViewController.h */,
+				D3259CA1159EA252007DD264 /* ViewController.m */,
+				D3259C8B159EA252007DD264 /* Supporting Files */,
+				D3BD94FE16ED972D0068EE2E /* LICENSE */,
+				D3BD950016ED99650068EE2E /* README.md */,
+			);
+			path = bobblehead;
+			sourceTree = "<group>";
+		};
+		D3259C8B159EA252007DD264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F294E8159F440100B8F4D2 /* grooveyhead.png */,
+				D3F294E9159F440100B8F4D2 /* grooveyonlybody.png */,
+				D3259C8C159EA252007DD264 /* bobblehead-Info.plist */,
+				D3259C8D159EA252007DD264 /* InfoPlist.strings */,
+				D3259C90159EA252007DD264 /* main.m */,
+				D3259C92159EA252007DD264 /* bobblehead-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3259CAF159EA252007DD264 /* bobbleheadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3259CB5159EA252007DD264 /* bobbleheadTests.h */,
+				D3259CB6159EA252007DD264 /* bobbleheadTests.m */,
+				D3259CB0159EA252007DD264 /* Supporting Files */,
+			);
+			path = bobbleheadTests;
+			sourceTree = "<group>";
+		};
+		D3259CB0159EA252007DD264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3259CB1159EA252007DD264 /* bobbleheadTests-Info.plist */,
+				D3259CB2159EA252007DD264 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3259C7B159EA252007DD264 /* bobblehead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3259CBA159EA252007DD264 /* Build configuration list for PBXNativeTarget "bobblehead" */;
+			buildPhases = (
+				D3259C78159EA252007DD264 /* Sources */,
+				D3259C79159EA252007DD264 /* Frameworks */,
+				D3259C7A159EA252007DD264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bobblehead;
+			productName = bobblehead;
+			productReference = D3259C7C159EA252007DD264 /* bobblehead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3259CA7159EA252007DD264 /* bobbleheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3259CBD159EA252007DD264 /* Build configuration list for PBXNativeTarget "bobbleheadTests" */;
+			buildPhases = (
+				D3259CA3159EA252007DD264 /* Sources */,
+				D3259CA4159EA252007DD264 /* Frameworks */,
+				D3259CA5159EA252007DD264 /* Resources */,
+				D3259CA6159EA252007DD264 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3259CAE159EA252007DD264 /* PBXTargetDependency */,
+			);
+			name = bobbleheadTests;
+			productName = bobbleheadTests;
+			productReference = D3259CA8159EA252007DD264 /* bobbleheadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3259C73159EA252007DD264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = D3259C76159EA252007DD264 /* Build configuration list for PBXProject "bobblehead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3259C71159EA252007DD264;
+			productRefGroup = D3259C7D159EA252007DD264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3259C7B159EA252007DD264 /* bobblehead */,
+				D3259CA7159EA252007DD264 /* bobbleheadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3259C7A159EA252007DD264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259C8F159EA252007DD264 /* InfoPlist.strings in Resources */,
+				D3259C98159EA252007DD264 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D3259C9B159EA252007DD264 /* MainStoryboard_iPad.storyboard in Resources */,
+				D3F294EA159F440100B8F4D2 /* grooveyhead.png in Resources */,
+				D3F294EB159F440100B8F4D2 /* grooveyonlybody.png in Resources */,
+				D3BD94FF16ED972D0068EE2E /* LICENSE in Resources */,
+				D3BD950116ED99650068EE2E /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259CA5159EA252007DD264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259CB4159EA252007DD264 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3259CA6159EA252007DD264 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3259C78159EA252007DD264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259C91159EA252007DD264 /* main.m in Sources */,
+				D3259C95159EA252007DD264 /* AppDelegate.m in Sources */,
+				D3259CA2159EA252007DD264 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259CA3159EA252007DD264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259CB7159EA252007DD264 /* bobbleheadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3259CAE159EA252007DD264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3259C7B159EA252007DD264 /* bobblehead */;
+			targetProxy = D3259CAD159EA252007DD264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3259C8D159EA252007DD264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259C8E159EA252007DD264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3259C96159EA252007DD264 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259C97159EA252007DD264 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D3259C99159EA252007DD264 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259C9A159EA252007DD264 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D3259CB2159EA252007DD264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259CB3159EA252007DD264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3259CB8159EA252007DD264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3259CB9159EA252007DD264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3259CBB159EA252007DD264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bobblehead/bobblehead-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "bobblehead/bobblehead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3259CBC159EA252007DD264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bobblehead/bobblehead-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "bobblehead/bobblehead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3259CBE159EA252007DD264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bobblehead.app/bobblehead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bobblehead/bobblehead-Prefix.pch";
+				INFOPLIST_FILE = "bobbleheadTests/bobbleheadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D3259CBF159EA252007DD264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bobblehead.app/bobblehead";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bobblehead/bobblehead-Prefix.pch";
+				INFOPLIST_FILE = "bobbleheadTests/bobbleheadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3259C76159EA252007DD264 /* Build configuration list for PBXProject "bobblehead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259CB8159EA252007DD264 /* Debug */,
+				D3259CB9159EA252007DD264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3259CBA159EA252007DD264 /* Build configuration list for PBXNativeTarget "bobblehead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259CBB159EA252007DD264 /* Debug */,
+				D3259CBC159EA252007DD264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3259CBD159EA252007DD264 /* Build configuration list for PBXNativeTarget "bobbleheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259CBE159EA252007DD264 /* Debug */,
+				D3259CBF159EA252007DD264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3259C73159EA252007DD264 /* Project object */;
+}
